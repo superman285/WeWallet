@@ -7,14 +7,14 @@ Vue.config.productionTip = false
 
 import Vuetify from 'vuetify'
 
-//import '@/assets/css/mdui.css'
-//import '@/assets/js/mdui.js'
-
-import '@/assets/css/reset.css';
+import Vuelidate from 'vuelidate'
 
 import 'vuetify/dist/vuetify.min.css'
-
+import '@/assets/css/reset.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+
+Vue.use(Vuetify)
+Vue.use(Vuelidate)
 
 new Vue({
     router,
@@ -22,4 +22,3 @@ new Vue({
     render: h => h(App)
 }).$mount('#app')
 
-Vue.use(Vuetify)

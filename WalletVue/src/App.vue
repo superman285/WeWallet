@@ -56,17 +56,21 @@
         color: #2c3e50;
     }
 
+    html {
+        min-height: 500px;
+    }
+
     .footernav {
         position: fixed!important;
         bottom: 0!important;
         width: 100%;
+        z-index: 5;
+        height: 60px!important;
     }
 
     a {
         text-decoration: none;
     }
-
-
 
 </style>
 

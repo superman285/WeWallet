@@ -1,5 +1,9 @@
 # WalletVue
 
+## Use introduction
+点击底部bar第二个tab可切换到登录注册页
+api接口域名在vue.config.js中的devServer-proxy-target处配置，具体接口url在Login.vue中调用时配置，methods-loginSubmit/registSubmit axios url处配置接口 /api/xxxx，以/api代表域名
+
 ## Project setup
 ```
 npm install
